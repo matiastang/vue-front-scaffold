@@ -2,14 +2,14 @@
  * @Author: matiastang
  * @Date: 2021-12-29 10:52:57
  * @LastEditors: matiastang
- * @LastEditTime: 2022-05-11 09:30:23
- * @FilePath: /datumwealth-front-scaffold/src/views/home/Home.vue
+ * @LastEditTime: 2022-11-16 16:05:42
+ * @FilePath: /vue-front-scaffold/src/views/home/Home.vue
  * @Description: 
 -->
 <template>
     <div class="home">
         <div class="text">{{ text }}</div>
-        <div class="body">{{ text }}</div>
+        <div class="body">{{ inputText }}</div>
         <input v-model="inputText" @change="inputChange" />
     </div>
 </template>
